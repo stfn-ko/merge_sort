@@ -13,6 +13,7 @@ typedef struct {
 
 using DistArr = std::array<uint16_t, INPUT_SIZE>;
 
+// foo
 // Note: Modifies the pos_idx
 Job closestJob(const DistArr &a, const DistArr &b, uint8_t &pos_idx) {
   Job job;
